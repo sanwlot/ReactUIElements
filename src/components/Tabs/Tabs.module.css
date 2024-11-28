@@ -1,0 +1,24 @@
+.sectionHeading {
+  text-align: center;
+}
+
+.tabsContainer {
+  width: 500px;
+  justify-self: center;
+  height: 400px;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 10px;
+}
+
+.tabBtn {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+
+  &:hover {
+    background-color: #333;
+    color: white;
+  }
+}
