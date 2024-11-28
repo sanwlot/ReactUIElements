@@ -1,0 +1,12 @@
+.header {
+  padding: 1rem;
+  background-color: aliceblue;
+  position: sticky;
+  top: 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  color: darkblue;
+}

@@ -47,16 +47,16 @@ function App() {
   }
   return (
     <section className={styles.section}>
-      <h1 style={{ textAlign: "center" }}>Accordian</h1>
+      <h1 className={styles.heading}>Accordian</h1>
       <ul className={styles.accordian}>
         {accordianList.map((accordianItem) => (
           <li key={accordianItem.id} className={styles.accordianListItem}>
-            <div className={styles.accordianListItemHeadingContainer}>
+            <div
+              onClick={() => toggleAccordianListItem(accordianItem.id)}
+              className={styles.accordianListItemHeadingContainer}
+            >
               <strong>{accordianItem.title}</strong>
-              <span
-                onClick={() => toggleAccordianListItem(accordianItem.id)}
-                className={styles.accordianListItemToggleIcon}
-              >
+              <span className={styles.accordianListItemToggleIcon}>
                 {accordianItem.isActive ? <FaCaretUp /> : <FaCaretDown />}
               </span>
             </div>
