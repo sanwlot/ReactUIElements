@@ -1,0 +1,21 @@
+.accordian {
+  list-style: none;
+  margin: 1rem;
+}
+
+.accordianListItem {
+  border: 1px solid #333;
+  width: 400px;
+  padding: 20px;
+}
+
+.accordianListItemHeadingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.accordianListItemToggleIcon {
+  cursor: pointer;
+}
