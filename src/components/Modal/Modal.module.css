@@ -1,9 +1,11 @@
 .section {
-  /* padding: 2rem; */
+  height: 100vh;
+  background-color: rgba(194, 201, 198, 0.517);
 }
 
 .heading {
   text-align: center;
+  padding-top: 1rem;
 }
 
 .modalContainer {

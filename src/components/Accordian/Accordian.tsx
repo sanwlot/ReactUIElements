@@ -46,7 +46,7 @@ function App() {
     })
   }
   return (
-    <section>
+    <section className={styles.section}>
       <h1 style={{ textAlign: "center" }}>Accordian</h1>
       <ul className={styles.accordian}>
         {accordianList.map((accordianItem) => (
@@ -71,7 +71,6 @@ function App() {
           </li>
         ))}
       </ul>
-      <hr />
     </section>
   )
 }

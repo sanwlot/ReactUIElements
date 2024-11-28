@@ -89,7 +89,6 @@ export default function Modal() {
           Launch Modal
         </button>
       </div>
-      <hr />
     </section>
   )
 }
