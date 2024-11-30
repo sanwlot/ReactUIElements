@@ -2,6 +2,7 @@
 import Accordian from "./components/Accordian/Accordian"
 import Header from "./components/Header/Header"
 import Modal from "./components/Modal/Modal"
+import Pagination from "./components/Pagination/Pagination"
 import Tabs from "./components/Tabs/Tabs"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Accordian />
       <Modal />
       <Tabs />
+      <Pagination />
     </>
   )
 }
